@@ -48,8 +48,8 @@ cp -r sources/consul/etc/ target/
 unzip -qq ${ZIP} -d target/usr/local/bin/
 rm ${ZIP}
 
-# create rpm
-fpm -s dir -t rpm -f \
+# create deb
+fpm -s dir -t deb -f \
        -C target \
        -n consul \
        -v ${VERSION} \
