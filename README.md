@@ -1,7 +1,9 @@
-Consul-rpm-rhel6
+Consul-deb
 ================
 
-Building the **consul** packages for Ubuntu. It uses upstart to register the service.
+Building the [**Consul**](https://consul.io) debian package.
+
+It only installs the agent. No UI.
 
 
 Requirements
@@ -22,6 +24,8 @@ To create a consul rpm version 0.5.0 and consul-template 0.8.0:
 
 The new package is located in the target folder. The target folder will be overridden
 when the next build starts.
+
+
 
 
 
